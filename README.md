@@ -117,8 +117,8 @@ The application is structured as follows:
   - `schemas.py`: Pydantic models for request/response validation
   - `models.py`: SQLAlchemy database models
   - `main.py`: FastAPI application entry point
-  - `tests/`: End-to-end tests
-    - `test_items_e2e.py`: Tests for inventory API endpoints
+- `tests/`: End-to-end tests
+  - `test_items_e2e.py`: Tests for inventory API endpoints
 - `Dockerfile`: Docker image build instructions
 - `docker-compose.yml`: Multi-container Docker application configuration
 - `requirements.txt`: Python dependencies
